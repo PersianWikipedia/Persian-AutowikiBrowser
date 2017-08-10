@@ -1,0 +1,19 @@
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Kingbotk Plugin\bin\Debug\Kingbotk AWB Plugin.dll
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Kingbotk Plugin\bin\Debug\Kingbotk AWB Plugin.pdb
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Kingbotk Plugin\bin\Debug\WikiFunctions.dll
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Kingbotk Plugin\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Kingbotk Plugin\bin\Debug\WikiFunctions.pdb
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Kingbotk Plugin\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Kingbotk Plugin\obj\Debug\Kingbotk Plugin.csprojResolveAssemblyReference.cache
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Kingbotk Plugin\obj\Debug\AutoWikiBrowser.Plugins.Kingbotk.Components.AboutBox.resources
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Kingbotk Plugin\obj\Debug\AutoWikiBrowser.Plugins.Kingbotk.Components.PluginSettingsControl.resources
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Kingbotk Plugin\obj\Debug\AutoWikiBrowser.Plugins.Kingbotk.Plugins.GenericTemplateSettings.resources
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Kingbotk Plugin\obj\Debug\AutoWikiBrowser.Plugins.Kingbotk.Components.GenericTemplatePropertiesForm.resources
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Kingbotk Plugin\obj\Debug\AutoWikiBrowser.Plugins.Kingbotk.GenericWithWorkgroups.resources
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Kingbotk Plugin\obj\Debug\AutoWikiBrowser.Plugins.Kingbotk.ManualAssessments.AssessmentForm.resources
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Kingbotk Plugin\obj\Debug\AutoWikiBrowser.Plugins.Kingbotk.ManualAssessments.AssessmentsInstructionsDialog.resources
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Kingbotk Plugin\obj\Debug\AutoWikiBrowser.Plugins.Kingbotk.Properties.Resources.resources
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Kingbotk Plugin\obj\Debug\AutoWikiBrowser.Plugins.Kingbotk.Components.TimerStats.resources
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Kingbotk Plugin\obj\Debug\Kingbotk Plugin.csproj.GenerateResource.Cache
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Kingbotk Plugin\obj\Debug\Kingbotk AWB Plugin.dll
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Kingbotk Plugin\obj\Debug\Kingbotk AWB Plugin.pdb

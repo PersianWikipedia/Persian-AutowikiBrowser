@@ -1,0 +1,13 @@
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Fronds\bin\Debug\Fronds.dll.config
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Fronds\bin\Debug\Fronds.dll
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Fronds\bin\Debug\Fronds.pdb
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Fronds\bin\Debug\WikiFunctions.dll
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Fronds\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Fronds\bin\Debug\WikiFunctions.pdb
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Fronds\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Fronds\obj\Debug\Fronds.csprojResolveAssemblyReference.cache
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Fronds\obj\Debug\Fronds.FrondsAbout.resources
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Fronds\obj\Debug\Fronds.FrondsOptions.resources
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Fronds\obj\Debug\Fronds.csproj.GenerateResource.Cache
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Fronds\obj\Debug\Fronds.dll
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Fronds\obj\Debug\Fronds.pdb

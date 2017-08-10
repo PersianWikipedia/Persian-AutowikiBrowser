@@ -1,0 +1,68 @@
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWB\bin\Release\AutoWikiBrowser.exe.config
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWB\bin\Release\AutoWikiBrowser.exe.manifest
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWB\bin\Release\AutoWikiBrowser.application
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWB\bin\Release\AutoWikiBrowser.exe
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWB\bin\Release\AutoWikiBrowser.pdb
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWB\bin\Release\WikiFunctions.dll
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWB\bin\Release\Newtonsoft.Json.dll
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWB\bin\Release\WikiFunctions.pdb
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWB\bin\Release\Newtonsoft.Json.xml
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.csprojResolveAssemblyReference.cache
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.AboutBox.resources
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.ConfigurePasteMoreItems.resources
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.CSharpEval.resources
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.CustomModule.resources
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.CustomModuleErrors.resources
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.Login.resources
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.TalkMessage.resources
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.ExitQuestion.resources
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.ExternalProgram.resources
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.CategoryNameForm.resources
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.MainForm.resources
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.PluginManager.resources
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.MyPreferences.resources
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.Properties.Resources.resources
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.ShutdownNotification.resources
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.SkipOptions.resources
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.Splash.resources
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.SummaryEditor.resources
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.csproj.GenerateResource.Cache
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.TrustInfo.xml
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.exe.manifest
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.application
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.exe
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.pdb
+F:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\AWB\AWB\bin\Release\AutoWikiBrowser.exe.config
+F:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.exe
+F:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.pdb
+F:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\AWB\AWB\bin\Release\AutoWikiBrowser.exe.manifest
+F:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\AWB\AWB\bin\Release\AutoWikiBrowser.application
+F:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\AWB\AWB\bin\Release\AutoWikiBrowser.exe
+F:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\AWB\AWB\bin\Release\AutoWikiBrowser.pdb
+F:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\AWB\AWB\bin\Release\WikiFunctions.dll
+F:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\AWB\AWB\bin\Release\Newtonsoft.Json.dll
+F:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\AWB\AWB\bin\Release\WikiFunctions.pdb
+F:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\AWB\AWB\bin\Release\Newtonsoft.Json.xml
+F:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.csprojResolveAssemblyReference.cache
+F:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.AboutBox.resources
+F:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.ConfigurePasteMoreItems.resources
+F:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.CSharpEval.resources
+F:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.CustomModule.resources
+F:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.CustomModuleErrors.resources
+F:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.Login.resources
+F:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.TalkMessage.resources
+F:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.ExitQuestion.resources
+F:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.ExternalProgram.resources
+F:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.CategoryNameForm.resources
+F:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.MainForm.resources
+F:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.PluginManager.resources
+F:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.MyPreferences.resources
+F:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.Properties.Resources.resources
+F:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.ShutdownNotification.resources
+F:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.SkipOptions.resources
+F:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.Splash.resources
+F:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.SummaryEditor.resources
+F:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.csproj.GenerateResource.Cache
+F:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.TrustInfo.xml
+F:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.exe.manifest
+F:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\AWB\AWB\obj\Release\AutoWikiBrowser.application

@@ -1,0 +1,9 @@
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\NoLimitsPlugin\bin\Debug\NoLimitsPlugin.dll
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\NoLimitsPlugin\bin\Debug\NoLimitsPlugin.pdb
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\NoLimitsPlugin\bin\Debug\WikiFunctions.dll
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\NoLimitsPlugin\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\NoLimitsPlugin\bin\Debug\WikiFunctions.pdb
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\NoLimitsPlugin\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\NoLimitsPlugin\obj\Debug\NoLimitsPlugin.csprojResolveAssemblyReference.cache
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\NoLimitsPlugin\obj\Debug\NoLimitsPlugin.dll
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\NoLimitsPlugin\obj\Debug\NoLimitsPlugin.pdb

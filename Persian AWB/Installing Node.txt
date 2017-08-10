@@ -1,0 +1,2 @@
+download node from https://nodejs.org/en/#download
+and install it.

@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AutoWikiBrowserPreferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xml:space="preserve" Version="5.9.0.1">
+  <Project>wikipedia</Project>
+  <LanguageCode>fa</LanguageCode>
+  <CustomProject />
+  <Protocol>http://</Protocol>
+  <LoginDomain />
+  <List>
+    <ListSource />
+    <SelectedProvider>CategoryListProvider</SelectedProvider>
+    <ArticleList />
+  </List>
+  <FindAndReplace>
+    <Enabled>false</Enabled>
+    <IgnoreSomeText>false</IgnoreSomeText>
+    <IgnoreMoreText>false</IgnoreMoreText>
+    <AppendSummary>true</AppendSummary>
+    <Replacements />
+    <AdvancedReps />
+    <SubstTemplates />
+    <IncludeComments>false</IncludeComments>
+    <ExpandRecursively>true</ExpandRecursively>
+    <IgnoreUnformatted>false</IgnoreUnformatted>
+  </FindAndReplace>
+  <Editprefs>
+    <GeneralFixes>false</GeneralFixes>
+    <Tagger>false</Tagger>
+    <Unicodify>false</Unicodify>
+    <Recategorisation>0</Recategorisation>
+    <NewCategory />
+    <NewCategory2 />
+    <ReImage>0</ReImage>
+    <ImageFind />
+    <Replace />
+    <SkipIfNoCatChange>false</SkipIfNoCatChange>
+    <RemoveSortKey>false</RemoveSortKey>
+    <SkipIfNoImgChange>false</SkipIfNoImgChange>
+    <AppendText>false</AppendText>
+    <AppendTextMetaDataSort>false</AppendTextMetaDataSort>
+    <Append>true</Append>
+    <Text />
+    <Newlines>2</Newlines>
+    <AutoDelay>10</AutoDelay>
+    <BotMaxEdits>0</BotMaxEdits>
+    <SupressTag>false</SupressTag>
+    <RegexTypoFix>false</RegexTypoFix>
+  </Editprefs>
+  <General>
+    <AutoSaveEdit>
+      <Enabled>false</Enabled>
+      <SavePeriod>30</SavePeriod>
+      <SaveFile />
+    </AutoSaveEdit>
+    <SelectedSummary>تمیزکاری</SelectedSummary>
+    <Summaries>
+      <string>تمیزکاری</string>
+      <string>رده‌بندی مجدد برپایهٔ [[ویکی‌پدیا:سیاست_حذف_رده‌ها]]</string>
+      <string>حذف و رده‌بندی مجدد برپایهٔ [[ویکی‌پدیا:سیاست_حذف_رده‌ها]]</string>
+      <string>حذف رده بر پایهٔ [[ویکی‌پدیا:سیاست_حذف_رده‌ها]]</string>
+      <string>تراگنجایش الگو</string>
+      <string>مرتب‌کردن خرد</string>
+      <string>اصلاح اشتباه سهوی</string>
+      <string>اصلاح پیونددهی اشتباه</string>
+      <string>اصلاح پیوند به صفحهٔ ابهام‌زدایی</string>
+      <string>جایگزینی</string>
+    </Summaries>
+    <PasteMore>
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+    </PasteMore>
+    <FindText />
+    <FindRegex>false</FindRegex>
+    <FindCaseSensitive>false</FindCaseSensitive>
+    <WordWrap>true</WordWrap>
+    <ToolBarEnabled>false</ToolBarEnabled>
+    <BypassRedirect>true</BypassRedirect>
+    <AutoSaveSettings>false</AutoSaveSettings>
+    <noSectionEditSummary>false</noSectionEditSummary>
+    <restrictDefaultsortAddition>true</restrictDefaultsortAddition>
+    <restrictOrphanTagging>true</restrictOrphanTagging>
+    <noMOSComplianceFixes>false</noMOSComplianceFixes>
+    <syntaxHighlightEditBox>false</syntaxHighlightEditBox>
+    <highlightAllFind>false</highlightAllFind>
+    <PreParseMode>false</PreParseMode>
+    <NoAutoChanges>false</NoAutoChanges>
+    <OnLoadAction>0</OnLoadAction>
+    <DiffInBotMode>false</DiffInBotMode>
+    <Minor>true</Minor>
+    <AddToWatchlist>2</AddToWatchlist>
+    <TimerEnabled>false</TimerEnabled>
+    <SortListAlphabetically>false</SortListAlphabetically>
+    <AddIgnoredToLog>false</AddIgnoredToLog>
+    <EditToolbarEnabled>true</EditToolbarEnabled>
+    <filterNonMainSpace>false</filterNonMainSpace>
+    <AutoFilterDuplicates>false</AutoFilterDuplicates>
+    <FocusAtEndOfEditBox>false</FocusAtEndOfEditBox>
+    <scrollToUnbalancedBrackets>false</scrollToUnbalancedBrackets>
+    <TextBoxSize>10</TextBoxSize>
+    <TextBoxFont>Courier New</TextBoxFont>
+    <LowThreadPriority>false</LowThreadPriority>
+    <Beep>false</Beep>
+    <Flash>false</Flash>
+    <Minimize>false</Minimize>
+    <LockSummary>false</LockSummary>
+    <SaveArticleList>true</SaveArticleList>
+    <SuppressUsingAWB>false</SuppressUsingAWB>
+    <AddUsingAWBToActionSummaries>false</AddUsingAWBToActionSummaries>
+    <IgnoreNoBots>false</IgnoreNoBots>
+    <ClearPageListOnProjectChange>false</ClearPageListOnProjectChange>
+    <SortInterWikiOrder>true</SortInterWikiOrder>
+    <ReplaceReferenceTags>true</ReplaceReferenceTags>
+    <LoggingEnabled>true</LoggingEnabled>
+    <AlertPreferences>
+      <int>1</int>
+      <int>2</int>
+      <int>3</int>
+      <int>4</int>
+      <int>5</int>
+      <int>6</int>
+      <int>7</int>
+      <int>8</int>
+      <int>9</int>
+      <int>10</int>
+      <int>11</int>
+      <int>12</int>
+      <int>13</int>
+      <int>14</int>
+      <int>15</int>
+      <int>16</int>
+      <int>17</int>
+      <int>18</int>
+      <int>19</int>
+      <int>20</int>
+      <int>21</int>
+      <int>22</int>
+    </AlertPreferences>
+  </General>
+  <SkipOptions>
+    <SkipNonexistent>true</SkipNonexistent>
+    <Skipexistent>false</Skipexistent>
+    <SkipDontCare>false</SkipDontCare>
+    <SkipWhenNoChanges>false</SkipWhenNoChanges>
+    <SkipSpamFilterBlocked>false</SkipSpamFilterBlocked>
+    <SkipInuse>false</SkipInuse>
+    <SkipWhenOnlyWhitespaceChanged>false</SkipWhenOnlyWhitespaceChanged>
+    <SkipOnlyGeneralFixChanges>true</SkipOnlyGeneralFixChanges>
+    <SkipOnlyMinorGeneralFixChanges>false</SkipOnlyMinorGeneralFixChanges>
+    <SkipOnlyCosmetic>false</SkipOnlyCosmetic>
+    <SkipOnlyCasingChanged>false</SkipOnlyCasingChanged>
+    <SkipIfRedirect>false</SkipIfRedirect>
+    <SkipIfNoAlerts>false</SkipIfNoAlerts>
+    <SkipDoes>false</SkipDoes>
+    <SkipDoesText />
+    <SkipDoesRegex>false</SkipDoesRegex>
+    <SkipDoesCaseSensitive>false</SkipDoesCaseSensitive>
+    <SkipDoesAfterProcessing>false</SkipDoesAfterProcessing>
+    <SkipDoesNot>false</SkipDoesNot>
+    <SkipDoesNotText />
+    <SkipDoesNotRegex>false</SkipDoesNotRegex>
+    <SkipDoesNotCaseSensitive>false</SkipDoesNotCaseSensitive>
+    <SkipDoesNotAfterProcessing>false</SkipDoesNotAfterProcessing>
+    <SkipNoFindAndReplace>false</SkipNoFindAndReplace>
+    <SkipMinorFindAndReplace>false</SkipMinorFindAndReplace>
+    <SkipNoRegexTypoFix>false</SkipNoRegexTypoFix>
+    <SkipNoDisambiguation>false</SkipNoDisambiguation>
+    <SkipNoLinksOnPage>false</SkipNoLinksOnPage>
+    <GeneralSkipList />
+  </SkipOptions>
+  <Module>
+    <Enabled>false</Enabled>
+    <Language>C# 3.5</Language>
+    <Code>        public string ProcessArticle(string ArticleText, string ArticleTitle, int wikiNamespace, out string Summary, out bool Skip)
+        {
+            Skip = false;
+            Summary = "test";
+            ArticleText = "test \r\n\r\n" + ArticleText;
+            return ArticleText;
+        }</Code>
+  </Module>
+  <ExternalProgram>
+    <Enabled>false</Enabled>
+    <Skip>false</Skip>
+    <Program />
+    <Parameters />
+    <PassAsFile>true</PassAsFile>
+    <OutputFile />
+  </ExternalProgram>
+  <Disambiguation>
+    <Enabled>false</Enabled>
+    <Link />
+    <Variants />
+    <ContextChars>20</ContextChars>
+  </Disambiguation>
+  <Special>
+    <namespaceValues />
+    <remDupes>true</remDupes>
+    <sortAZ>true</sortAZ>
+    <filterTitlesThatContain>false</filterTitlesThatContain>
+    <filterTitlesThatContainText />
+    <filterTitlesThatDontContain>false</filterTitlesThatDontContain>
+    <filterTitlesThatDontContainText />
+    <areRegex>false</areRegex>
+    <opType>-1</opType>
+    <remove />
+  </Special>
+  <Tool>
+    <ListComparerUseCurrentArticleList>0</ListComparerUseCurrentArticleList>
+    <ListSplitterUseCurrentArticleList>0</ListSplitterUseCurrentArticleList>
+    <DatabaseScannerUseCurrentArticleList>0</DatabaseScannerUseCurrentArticleList>
+  </Tool>
+  <Plugin />
+</AutoWikiBrowserPreferences>

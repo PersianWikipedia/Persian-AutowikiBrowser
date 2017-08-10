@@ -1,0 +1,10 @@
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWBUpdater\bin\Debug\AWBUpdater.exe.config
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWBUpdater\bin\Debug\AWBUpdater.exe
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWBUpdater\bin\Debug\AWBUpdater.pdb
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWBUpdater\obj\Debug\AWBUpdater.csprojResolveAssemblyReference.cache
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWBUpdater\obj\Debug\AwbUpdater.ErrorHandler.resources
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWBUpdater\obj\Debug\AwbUpdater.Updater.resources
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWBUpdater\obj\Debug\AWBUpdater.Properties.Resources.resources
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWBUpdater\obj\Debug\AWBUpdater.csproj.GenerateResource.Cache
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWBUpdater\obj\Debug\AWBUpdater.exe
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\AWBUpdater\obj\Debug\AWBUpdater.pdb

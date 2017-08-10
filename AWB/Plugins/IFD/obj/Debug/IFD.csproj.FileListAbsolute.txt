@@ -1,0 +1,11 @@
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\IFD\bin\Debug\IFD.dll
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\IFD\bin\Debug\IFD.pdb
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\IFD\bin\Debug\WikiFunctions.dll
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\IFD\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\IFD\bin\Debug\WikiFunctions.pdb
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\IFD\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\IFD\obj\Debug\IFD.csprojResolveAssemblyReference.cache
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\IFD\obj\Debug\AutoWikiBrowser.Plugins.IFD.IfdOptions.resources
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\IFD\obj\Debug\IFD.csproj.GenerateResource.Cache
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\IFD\obj\Debug\IFD.dll
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\IFD\obj\Debug\IFD.pdb

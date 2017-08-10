@@ -1,0 +1,9 @@
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\BingSearch\bin\Debug\BingSearchPlugin.dll
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\BingSearch\bin\Debug\BingSearchPlugin.pdb
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\BingSearch\bin\Debug\WikiFunctions.dll
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\BingSearch\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\BingSearch\bin\Debug\WikiFunctions.pdb
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\BingSearch\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\BingSearch\obj\Debug\BingSearch.csprojResolveAssemblyReference.cache
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\BingSearch\obj\Debug\BingSearchPlugin.dll
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\BingSearch\obj\Debug\BingSearchPlugin.pdb

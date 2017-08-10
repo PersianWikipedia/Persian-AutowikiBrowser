@@ -1,0 +1,11 @@
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Delinker\bin\Debug\DelinkerPlugin.dll
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Delinker\bin\Debug\DelinkerPlugin.pdb
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Delinker\bin\Debug\WikiFunctions.dll
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Delinker\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Delinker\bin\Debug\WikiFunctions.pdb
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Delinker\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Delinker\obj\Debug\DelinkerPlugin.csprojResolveAssemblyReference.cache
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Delinker\obj\Debug\AutoWikiBrowser.Plugins.Delinker.SettingsForm.resources
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Delinker\obj\Debug\DelinkerPlugin.csproj.GenerateResource.Cache
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Delinker\obj\Debug\DelinkerPlugin.dll
+C:\Users\Reza\Desktop\3\autowikibrowser-code-12169\AWB\Plugins\Delinker\obj\Debug\DelinkerPlugin.pdb
