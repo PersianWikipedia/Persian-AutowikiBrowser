@@ -1,0 +1,13 @@
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\Fronds\bin\Release\Fronds.dll.config
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\Fronds\bin\Release\Fronds.dll
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\Fronds\bin\Release\Fronds.pdb
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\Fronds\bin\Release\WikiFunctions.dll
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\Fronds\bin\Release\Newtonsoft.Json.dll
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\Fronds\bin\Release\WikiFunctions.pdb
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\Fronds\bin\Release\Newtonsoft.Json.xml
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\Fronds\obj\Release\Fronds.csprojResolveAssemblyReference.cache
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\Fronds\obj\Release\Fronds.FrondsAbout.resources
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\Fronds\obj\Release\Fronds.FrondsOptions.resources
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\Fronds\obj\Release\Fronds.csproj.GenerateResource.Cache
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\Fronds\obj\Release\Fronds.dll
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\Fronds\obj\Release\Fronds.pdb

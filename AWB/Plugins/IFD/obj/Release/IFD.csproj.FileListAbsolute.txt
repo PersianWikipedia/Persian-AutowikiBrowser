@@ -1,0 +1,11 @@
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\IFD\bin\Release\IFD.dll
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\IFD\bin\Release\IFD.pdb
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\IFD\bin\Release\WikiFunctions.dll
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\IFD\bin\Release\Newtonsoft.Json.dll
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\IFD\bin\Release\WikiFunctions.pdb
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\IFD\bin\Release\Newtonsoft.Json.xml
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\IFD\obj\Release\IFD.csprojResolveAssemblyReference.cache
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\IFD\obj\Release\AutoWikiBrowser.Plugins.IFD.IfdOptions.resources
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\IFD\obj\Release\IFD.csproj.GenerateResource.Cache
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\IFD\obj\Release\IFD.dll
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\IFD\obj\Release\IFD.pdb

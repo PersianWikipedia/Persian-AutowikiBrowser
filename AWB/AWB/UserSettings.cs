@@ -33,7 +33,7 @@ namespace AutoWikiBrowser
     {
         private void saveAsDefaultToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Are you sure you want to save these settings as the default settings?", "Save as default?", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            if (MessageBox.Show("آیا مطمئنید که می‌خواهید تنظیمات را به عنوان تنظیمات پیش‌فرض ذخیره کنید؟", "ذخیره به عنوان پیش‌فرض؟", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 SavePrefs();
         }
 
@@ -43,7 +43,7 @@ namespace AutoWikiBrowser
             {
                 if (File.Exists(SettingsFile))
                 {
-                    if (MessageBox.Show("Replace existing file?", "File exists - " + SettingsFile,
+                    if (MessageBox.Show("جایگزین فایل موجود؟", "فایل موجود است - " + SettingsFile,
                                         MessageBoxButtons.YesNo, MessageBoxIcon.Question,
                                         MessageBoxDefaultButton.Button1) == DialogResult.No)
                         return;
@@ -55,8 +55,8 @@ namespace AutoWikiBrowser
                 SavePrefs(SettingsFile);
             }
             else if (
-                MessageBox.Show("No settings file currently loaded. Save as Default?",
-                                "Save current settings as Default?", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                MessageBox.Show("فایل تنظیمات بارگیری نشده‌است. آیا فایل پیش‌فرض انتخاب شود؟",
+                                "ذخیره تنظیمات کنونی به عنوان پیش‌فرض؟", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 SavePrefs();
             else
             {
@@ -71,7 +71,7 @@ namespace AutoWikiBrowser
 
         private void loadDefaultSettingsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Would you really like to load the original default settings?", "Reset settings to default?", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            if (MessageBox.Show("آیا قصد استفاده از تنظیمات پیش‌فرض را دارید؟", "بازگردانی تنظیمات به پیش‌فرض؟", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 ResetSettings();
         }
 
@@ -103,16 +103,16 @@ namespace AutoWikiBrowser
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Problem resetting plugin\r\n\r\n" + ex.Message);
+                    MessageBox.Show("خطا در بازگردانی افزونه\r\n\r\n" + ex.Message);
                 }
 
                 CModule.ModuleEnabled = false;
                 Text = Program.Name;
-                StatusLabelText = "Default settings loaded.";
+                StatusLabelText = "تنظیمات پیش‌فرض بارگیری شد.";
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "Error loading settings", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "خطا در بارگیری تنظیمات", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -254,7 +254,7 @@ namespace AutoWikiBrowser
                 // if user runs AWB from somewhere they can't write to, saving settings as default will fail, so handle this
                 if (ex is UnauthorizedAccessException)
                 {
-                    MessageBox.Show("Saving settings failed due to insufficient permissions.", "Error",
+                    MessageBox.Show("ذخیره تنظیمات به دلیل نداشتن دسترسی‌های لازم لغو شد.", "خطا",
                                     MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 else
@@ -473,7 +473,7 @@ namespace AutoWikiBrowser
                 LoadPrefs(UserPrefs.LoadPrefs(path));
 
                 SettingsFile = path;
-                StatusLabelText = "Settings successfully loaded";
+                StatusLabelText = "تنظیمات با موفقیت بارگیری شد";
                 UpdateRecentList(path);
             }
             catch (Exception ex)

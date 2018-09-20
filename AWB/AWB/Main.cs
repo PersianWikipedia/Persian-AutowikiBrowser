@@ -374,12 +374,12 @@ namespace AutoWikiBrowser
                     }
                 }
 
-                if ((Updater.Result & Updater.AWBEnabledStatus.Disabled) == Updater.AWBEnabledStatus.Disabled)
+                /*if ((Updater.Result & Updater.AWBEnabledStatus.Disabled) == Updater.AWBEnabledStatus.Disabled)
                 {
                     OldVersion();
                     SplashScreen.Close();
                     return;
-                }
+                }*/
 
                 if ((Updater.Result & Updater.AWBEnabledStatus.Error) == Updater.AWBEnabledStatus.Error)
                 {
@@ -2541,7 +2541,7 @@ font-size: 150%;'>بدون تغییر</h2><p>دکمه «رها» را بزنید
             btnProtect.Enabled = TheSession.IsSysop && btnSave.Enabled && (TheArticle != null);
             btnMove.Enabled = btnProtect.Enabled && TheSession.Page.Exists;
             btnDelete.Enabled = btntsDelete.Enabled = TheSession.User.CanDeletePage(TheSession.Page) && btnSave.Enabled && (TheArticle != null) && TheSession.Page.Exists;
-            bypassAllRedirectsToolStripMenuItem.Enabled = TheSession.User.IsSysop;
+            bypassAllRedirectsToolStripMenuItem.Enabled = true;//TheSession.User.IsSysop;
         }
 
         private void chkAutoMode_CheckedChanged(object sender, EventArgs e)
@@ -2605,7 +2605,7 @@ font-size: 150%;'>بدون تغییر</h2><p>دکمه «رها» را بزنید
                     break;
 
                 case WikiStatusResult.OldVersion:
-                    OldVersion();
+                    //OldVersion();
                     break;
 
                 case WikiStatusResult.NoRights:
@@ -5366,32 +5366,32 @@ font-size: 150%;'>بدون تغییر</h2><p>دکمه «رها» را بزنید
         #region EditToolbar
         private void imgBold_Click(object sender, EventArgs e)
         {
-            EditToolBarAction("'''Bold text'''", 12, 9, "'''");
+            EditToolBarAction("'''متن پررنگ'''", 12, 9, "'''");
         }
 
         private void imgItalics_Click(object sender, EventArgs e)
         {
-            EditToolBarAction("''Italic text''", 13, 11, "''");
+            EditToolBarAction("''متن مورب''", 13, 11, "''");
         }
 
         private void imgLink_Click(object sender, EventArgs e)
         {
-            EditToolBarAction("[[Link title]]", 12, 10, "[[", "]]");
+            EditToolBarAction("[[عنوان پیوند]]", 12, 10, "[[", "]]");
         }
 
         private void imgExtlink_Click(object sender, EventArgs e)
         {
-            EditToolBarAction("[http://www.example.com link title]", 34, 33, "[", "]");
+            EditToolBarAction("[http://www.example.com عنوان پیوند]", 34, 33, "[", "]");
         }
 
         private void imgMath_Click(object sender, EventArgs e)
         {
-            EditToolBarAction("<math>Insert formula here</math>", 26, 19, "<math>", "</math>");
+            EditToolBarAction("<math>افزودن فرمول در اینجا</math>", 26, 19, "<math>", "</math>");
         }
 
         private void imgNowiki_Click(object sender, EventArgs e)
         {
-            EditToolBarAction("<nowiki>Insert non-formatted text here</nowiki>", 39, 30, "<nowiki>", "</nowiki>");
+            EditToolBarAction("<nowiki>افزودن متن بدون ساختار ویکی در اینجا</nowiki>", 39, 30, "<nowiki>", "</nowiki>");
         }
 
         private void imgHr_Click(object sender, EventArgs e)
@@ -5402,27 +5402,27 @@ font-size: 150%;'>بدون تغییر</h2><p>دکمه «رها» را بزنید
         private void imgRedirect_Click(object sender, EventArgs e)
         {
             string redirect = Variables.MagicWords["redirect"][0].ToUpper();
-            EditToolBarAction(redirect + " [[Insert text]]", 13, 11, redirect + " [[", "]]");
+            EditToolBarAction(redirect + " [[افزودن متن]]", 13, 11, redirect + " [[", "]]");
         }
 
         private void imgStrike_Click(object sender, EventArgs e)
         {
-            EditToolBarAction("<s>Strike-through text</s>", 23, 19, "<s>", "</s>");
+            EditToolBarAction("<s>متن خط خورده</s>", 23, 19, "<s>", "</s>");
         }
 
         private void imgSup_Click(object sender, EventArgs e)
         {
-            EditToolBarAction("<sup>Superscript text</sup>", 22, 16, "<sup>", "</sup>");
+            EditToolBarAction("<sup>توان</sup>", 22, 16, "<sup>", "</sup>");
         }
 
         private void imgSub_Click(object sender, EventArgs e)
         {
-            EditToolBarAction("<sub>Subscript text</sub>", 20, 14, "<sub>", "</sub>");
+            EditToolBarAction("<sub>پایین‌نویس</sub>", 20, 14, "<sub>", "</sub>");
         }
 
         private void imgComment_Click(object sender, EventArgs e)
         {
-            EditToolBarAction("<!-- Comment -->", 11, 7, "<!-- ", " -->");
+            EditToolBarAction("<!-- توضیح -->", 11, 7, "<!-- ", " -->");
         }
 
         /// <summary>
@@ -5465,7 +5465,9 @@ font-size: 150%;'>بدون تغییر</h2><p>دکمه «رها» را بزنید
         {
             imgBold.Enabled = imgExtlink.Enabled = imgHr.Enabled = imgItalics.Enabled = imgLink.Enabled =
                 imgMath.Enabled = imgNowiki.Enabled = imgRedirect.Enabled = imgStrike.Enabled = imgSub.Enabled =
-                imgSup.Enabled = imgComment.Enabled = imgAbar.Enabled = imgDirection.Enabled = enabled;
+                imgSup.Enabled = imgComment.Enabled = imgAbar.Enabled  = imgFaNum.Enabled= imgDirection.Enabled =
+                imgYadBook.Enabled = imgYadWeb.Enabled = imgRef.Enabled = imgYadPak.Enabled =
+                enabled;
         }
 
         private bool EditToolBarVisible
@@ -5501,7 +5503,12 @@ font-size: 150%;'>بدون تغییر</h2><p>دکمه «رها» را بزنید
                                                                                             imgSup.Visible =
                                                                                             imgComment.Visible =
                                                                                             imgAbar.Visible =
+                                                                                            imgFaNum.Visible=
                                                                                             imgDirection.Visible =
+                                                                                            imgYadBook.Visible = 
+                                                                                            imgYadWeb.Visible = 
+                                                                                            imgRef.Visible = 
+                                                                                            imgYadPak.Visible =
                                                                                             value;
                 showHideEditToolbarToolStripMenuItem.Checked = value;
             }
@@ -5675,7 +5682,7 @@ font-size: 150%;'>بدون تغییر</h2><p>دکمه «رها» را بزنید
             Abar.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
             Abar.FileName = "node";
             Abar.Arguments = "fa_bot.js";
-            using (System.IO.StreamWriter writer = new System.IO.StreamWriter("input.txt"))
+            using (System.IO.StreamWriter writer = new System.IO.StreamWriter("io.txt"))
                 writer.Write(txtEdit.Text);
                 try
                 {
@@ -5684,7 +5691,7 @@ font-size: 150%;'>بدون تغییر</h2><p>دکمه «رها» را بزنید
                     System.Diagnostics.Process Abar_p = System.Diagnostics.Process.Start(Abar);
                     Abar_p.WaitForExit();
 
-                    using (System.IO.StreamReader reader = System.IO.File.OpenText("output.txt"))
+                    using (System.IO.StreamReader reader = System.IO.File.OpenText("io.txt"))
                         txtEdit.Text = reader.ReadToEnd();
                     GetDiff();
                     RTLMessageBox("ابرابزار اجرا شد!", "ابرابزار");
@@ -5713,6 +5720,62 @@ font-size: 150%;'>بدون تغییر</h2><p>دکمه «رها» را بزنید
                 txtEdit.RightToLeft = System.Windows.Forms.RightToLeft.No;
             }
 
+        }
+
+        private void imgRef_Click(object sender, EventArgs e)
+        {
+            EditToolBarAction("<ref> </ref>", 11, 7, "<ref>", "</ref>");
+        }
+
+        private void imgYadWeb_Click(object sender, EventArgs e)
+        {
+            EditToolBarAction("<ref>{{یادکرد وب |نویسنده = |نشانی= |عنوان= | ناشر = |تاریخ = |تاریخ بازبینی= }}</ref>", 26, 19, "", "");
+        }
+
+        private void imgYadPak_Click(object sender, EventArgs e)
+        {
+            EditToolBarAction("<ref>{{پک|نام خانوادگی|سال|ک=کتاب|ص=صفحه}}</ref>", 26, 19, "", "");
+        }
+
+        private void imgYadBook_Click(object sender, EventArgs e)
+        {
+            EditToolBarAction("<ref>{{یادکرد کتاب |نام خانوادگی= |نام= |کتاب= | ناشر= |سال= |مکان= |شابک=}}</ref>", 26, 19, "", "");
+        }
+
+        private void imgFaNum_Click(object sender, EventArgs e)
+        {
+            string test_txt;
+            try
+            {
+                System.Diagnostics.Process process = new System.Diagnostics.Process();
+                System.Diagnostics.ProcessStartInfo Abar = new System.Diagnostics.ProcessStartInfo();
+                Abar.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+                Abar.FileName = "node";
+                Abar.Arguments = "fa_bot2.js";
+                using (System.IO.StreamWriter writer = new System.IO.StreamWriter("io.txt"))
+                    writer.Write(txtEdit.Text);
+                try
+                {
+                    using (System.IO.StreamReader reader = System.IO.File.OpenText("fa_bot.js"))
+                        test_txt = reader.ReadToEnd();
+                    System.Diagnostics.Process Abar_p = System.Diagnostics.Process.Start(Abar);
+                    Abar_p.WaitForExit();
+
+                    using (System.IO.StreamReader reader = System.IO.File.OpenText("io.txt"))
+                        txtEdit.Text = reader.ReadToEnd();
+                    GetDiff();
+                    RTLMessageBox("ابزار اصلاح اعداد اجرا شد!", "اصلاح اعداد");
+                }
+                catch
+                {
+                    RTLMessageBox("ممکن است نرم‌افزار node نصب نشده باشد یا فایل fa_bot2.js در پوشهٔ ویرایشگر خودکار نباشد.", "خطا در اجرای ابرابزار");
+                }
+
+            }
+            catch
+            {
+                RTLMessageBox("ممکن است نرم‌افزار node نصب نشده باشد یا فایل fa_bot2.js در پوشهٔ ویرایشگر خودکار نباشد.", "خطا در اجرای ابرابزار");
+            }
         }
 
         private void ListMakerSourceSelectHandler(object sender, EventArgs e)

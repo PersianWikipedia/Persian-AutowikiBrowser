@@ -262,7 +262,8 @@ namespace WikiFunctions.Parse
         {
             string articleTextOriginal = articleText;
             Dictionary<string, string> NamedRefs = new Dictionary<string, string>();
-
+            if (Variables.LangCode.Equals("fa") && !HasPakReferences(articleText))
+                return articleText;
             for (; ; )
             {
                 bool reparse = false;
@@ -371,7 +372,13 @@ namespace WikiFunctions.Parse
 
             return false;
         }
-
+        public static bool HasPakReferences(string articleText)
+        {
+            articleText = WikiRegexes.Comments.Replace(articleText, "");
+            if(!Regex.IsMatch (articleText, @"\{\{\s*پک\s*\|"))
+                    return true;
+            return false;
+        }
         /// <summary>
         /// Derives and sets a reference name per [[WP:REFNAME]] for duplicate &lt;ref&gt;s
         /// Then condenses repeated uses of the named reference
@@ -383,6 +390,9 @@ namespace WikiFunctions.Parse
             /* On en-wiki AWB is asked not to add named references to an article if there are none currently, as some users feel
              * this is a change of citation style, so is against the [[WP:CITE]] "don't change established style" guidelines */
             if (Variables.LangCode.Equals("en") && !HasNamedReferences(articleText))
+                return articleText;
+
+            if (Variables.LangCode.Equals("fa") && !HasPakReferences(articleText))
                 return articleText;
 
             // get list of all unnamed refs, then filter to only those with duplicate ref content

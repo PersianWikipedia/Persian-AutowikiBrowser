@@ -74,14 +74,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AutoWikiBrowser.exe" size="862720">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AutoWikiBrowser.exe" size="874496">
       <assemblyIdentity name="AutoWikiBrowser" version="5.9.0.1" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>FMGeZF2iVV0GfugONKGyZ+2zoMA=</dsig:DigestValue>
+        <dsig:DigestValue>dzZBEVspGH9veVwGwGQD2nZsRwc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -98,14 +98,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WikiFunctions.dll" size="1091072">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WikiFunctions.dll" size="1091584">
       <assemblyIdentity name="WikiFunctions" version="5.9.0.1" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>NIXKSCv4cTqZJClL8l0b+gw4z10=</dsig:DigestValue>
+        <dsig:DigestValue>+czOGoEWN5ERt3kyNn8jV/pViZQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

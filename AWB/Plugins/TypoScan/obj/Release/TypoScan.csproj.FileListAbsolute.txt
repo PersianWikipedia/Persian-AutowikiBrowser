@@ -1,0 +1,11 @@
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\TypoScan\bin\Release\TypoScan.dll
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\TypoScan\bin\Release\TypoScan.pdb
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\TypoScan\bin\Release\WikiFunctions.dll
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\TypoScan\bin\Release\Newtonsoft.Json.dll
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\TypoScan\bin\Release\WikiFunctions.pdb
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\TypoScan\bin\Release\Newtonsoft.Json.xml
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\TypoScan\obj\Release\TypoScan.csprojResolveAssemblyReference.cache
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\TypoScan\obj\Release\WikiFunctions.Plugins.ListMaker.TypoScan.About.resources
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\TypoScan\obj\Release\TypoScan.csproj.GenerateResource.Cache
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\TypoScan\obj\Release\TypoScan.dll
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\TypoScan\obj\Release\TypoScan.pdb

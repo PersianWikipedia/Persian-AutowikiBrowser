@@ -281,6 +281,12 @@ namespace AutoWikiBrowser
             this.EnableRegexTypoFixLinkLabel = new System.Windows.Forms.LinkLabel();
             this.chkRegExTypo = new System.Windows.Forms.CheckBox();
             this.chkSkipNoDab = new System.Windows.Forms.CheckBox();
+            this.imgYadWeb = new System.Windows.Forms.PictureBox();
+            this.imgYadPak = new System.Windows.Forms.PictureBox();
+            this.imgYadBook = new System.Windows.Forms.PictureBox();
+            this.imgRef = new System.Windows.Forms.PictureBox();
+            this.imgDirection = new System.Windows.Forms.PictureBox();
+            this.imgAbar = new System.Windows.Forms.PictureBox();
             this.imgComment = new System.Windows.Forms.PictureBox();
             this.imgSub = new System.Windows.Forms.PictureBox();
             this.imgSup = new System.Windows.Forms.PictureBox();
@@ -293,7 +299,7 @@ namespace AutoWikiBrowser
             this.imgLink = new System.Windows.Forms.PictureBox();
             this.imgItalics = new System.Windows.Forms.PictureBox();
             this.imgBold = new System.Windows.Forms.PictureBox();
-            this.imgAbar = new System.Windows.Forms.PictureBox();
+            this.imgFaNum = new System.Windows.Forms.PictureBox();
             this.chkAppendMetaDataSort = new System.Windows.Forms.CheckBox();
             this.botEditsStop = new System.Windows.Forms.NumericUpDown();
             this.mnuHistory = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -415,13 +421,18 @@ namespace AutoWikiBrowser
             this.toolStripSeparatorMakeFromTextBox = new System.Windows.Forms.ToolStripSeparator();
             this.webBrowser = new AutoWikiBrowser.AWBWebBrowser();
             this.NudgeTimer = new AutoWikiBrowser.NudgeTimer(this.components);
-            this.imgDirection = new System.Windows.Forms.PictureBox();
             this.mnuTextBox.SuspendLayout();
             this.MnuMain.SuspendLayout();
             this.StatusMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudBotSpeed)).BeginInit();
             this.AlertGroup.SuspendLayout();
             this.SummaryGroup.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imgYadWeb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgYadPak)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgYadBook)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgRef)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgDirection)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgAbar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgComment)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgSub)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgSup)).BeginInit();
@@ -434,7 +445,7 @@ namespace AutoWikiBrowser
             ((System.ComponentModel.ISupportInitialize)(this.imgLink)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgItalics)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgBold)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgAbar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgFaNum)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.botEditsStop)).BeginInit();
             this.mnuHistory.SuspendLayout();
             this.toolStrip.SuspendLayout();
@@ -480,7 +491,6 @@ namespace AutoWikiBrowser
             this.groupBox9.SuspendLayout();
             this.groupBox10.SuspendLayout();
             this.mnuMakeFromTextBox.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.imgDirection)).BeginInit();
             this.SuspendLayout();
             // 
             // mnuTextBox
@@ -882,7 +892,6 @@ namespace AutoWikiBrowser
             // 
             // bypassAllRedirectsToolStripMenuItem
             // 
-            this.bypassAllRedirectsToolStripMenuItem.Enabled = false;
             this.bypassAllRedirectsToolStripMenuItem.Name = "bypassAllRedirectsToolStripMenuItem";
             this.bypassAllRedirectsToolStripMenuItem.Size = new System.Drawing.Size(298, 22);
             this.bypassAllRedirectsToolStripMenuItem.Text = "جایگزینی همه تغییرمسیرها";
@@ -1968,6 +1977,8 @@ namespace AutoWikiBrowser
             // chkGeneralFixes
             // 
             this.chkGeneralFixes.AutoSize = true;
+            this.chkGeneralFixes.Checked = true;
+            this.chkGeneralFixes.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chkGeneralFixes.Location = new System.Drawing.Point(123, 38);
             this.chkGeneralFixes.Name = "chkGeneralFixes";
             this.chkGeneralFixes.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -2669,11 +2680,11 @@ namespace AutoWikiBrowser
             this.txtReviewEditSummary.BackColor = System.Drawing.SystemColors.Window;
             this.txtReviewEditSummary.DetectUrls = false;
             this.txtReviewEditSummary.Enabled = false;
-            this.txtReviewEditSummary.Location = new System.Drawing.Point(340, 3);
+            this.txtReviewEditSummary.Location = new System.Drawing.Point(359, 3);
             this.txtReviewEditSummary.Name = "txtReviewEditSummary";
             this.txtReviewEditSummary.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtReviewEditSummary.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
-            this.txtReviewEditSummary.Size = new System.Drawing.Size(54, 29);
+            this.txtReviewEditSummary.Size = new System.Drawing.Size(35, 29);
             this.txtReviewEditSummary.TabIndex = 13;
             this.txtReviewEditSummary.Text = "";
             this.ToolTip.SetToolTip(this.txtReviewEditSummary, "The edit summary for the page");
@@ -2713,18 +2724,114 @@ namespace AutoWikiBrowser
             this.ToolTip.SetToolTip(this.chkSkipNoDab, "Automatically skip pages if now disambiguations made");
             this.chkSkipNoDab.UseVisualStyleBackColor = true;
             // 
+            // imgYadWeb
+            // 
+            this.imgYadWeb.AccessibleDescription = "";
+            this.imgYadWeb.AccessibleName = "";
+            this.imgYadWeb.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.imgYadWeb.Enabled = false;
+            this.imgYadWeb.Image = global::AutoWikiBrowser.Properties.Resources.web;
+            this.imgYadWeb.Location = new System.Drawing.Point(143, 31);
+            this.imgYadWeb.Name = "imgYadWeb";
+            this.imgYadWeb.Size = new System.Drawing.Size(22, 21);
+            this.imgYadWeb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.imgYadWeb.TabIndex = 21;
+            this.imgYadWeb.TabStop = false;
+            this.imgYadWeb.Tag = "";
+            this.ToolTip.SetToolTip(this.imgYadWeb, "افزودن الگو:یادکرد وب");
+            this.imgYadWeb.Click += new System.EventHandler(this.imgYadWeb_Click);
+            // 
+            // imgYadPak
+            // 
+            this.imgYadPak.AccessibleDescription = "";
+            this.imgYadPak.AccessibleName = "";
+            this.imgYadPak.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.imgYadPak.Enabled = false;
+            this.imgYadPak.Image = global::AutoWikiBrowser.Properties.Resources.pak;
+            this.imgYadPak.Location = new System.Drawing.Point(170, 31);
+            this.imgYadPak.Name = "imgYadPak";
+            this.imgYadPak.Size = new System.Drawing.Size(22, 21);
+            this.imgYadPak.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.imgYadPak.TabIndex = 20;
+            this.imgYadPak.TabStop = false;
+            this.imgYadPak.Tag = "";
+            this.ToolTip.SetToolTip(this.imgYadPak, "افزودن الگو:پک");
+            this.imgYadPak.Click += new System.EventHandler(this.imgYadPak_Click);
+            // 
+            // imgYadBook
+            // 
+            this.imgYadBook.AccessibleDescription = "";
+            this.imgYadBook.AccessibleName = "";
+            this.imgYadBook.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.imgYadBook.Enabled = false;
+            this.imgYadBook.Image = global::AutoWikiBrowser.Properties.Resources.book;
+            this.imgYadBook.Location = new System.Drawing.Point(197, 31);
+            this.imgYadBook.Name = "imgYadBook";
+            this.imgYadBook.Size = new System.Drawing.Size(22, 21);
+            this.imgYadBook.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.imgYadBook.TabIndex = 19;
+            this.imgYadBook.TabStop = false;
+            this.imgYadBook.Tag = "";
+            this.ToolTip.SetToolTip(this.imgYadBook, "افزودن الگو:یادکرد کتاب");
+            this.imgYadBook.Click += new System.EventHandler(this.imgYadBook_Click);
+            // 
+            // imgRef
+            // 
+            this.imgRef.AccessibleDescription = "";
+            this.imgRef.AccessibleName = "";
+            this.imgRef.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.imgRef.Enabled = false;
+            this.imgRef.Image = global::AutoWikiBrowser.Properties.Resources.ref1;
+            this.imgRef.Location = new System.Drawing.Point(118, 31);
+            this.imgRef.Name = "imgRef";
+            this.imgRef.Size = new System.Drawing.Size(22, 21);
+            this.imgRef.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.imgRef.TabIndex = 18;
+            this.imgRef.TabStop = false;
+            this.imgRef.Tag = "";
+            this.ToolTip.SetToolTip(this.imgRef, "افزودن <ref> </ref>");
+            this.imgRef.Click += new System.EventHandler(this.imgRef_Click);
+            // 
+            // imgDirection
+            // 
+            this.imgDirection.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.imgDirection.Enabled = false;
+            this.imgDirection.Image = global::AutoWikiBrowser.Properties.Resources.Button_toggle_dir;
+            this.imgDirection.Location = new System.Drawing.Point(333, 6);
+            this.imgDirection.Name = "imgDirection";
+            this.imgDirection.Size = new System.Drawing.Size(23, 22);
+            this.imgDirection.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.imgDirection.TabIndex = 15;
+            this.imgDirection.TabStop = false;
+            this.ToolTip.SetToolTip(this.imgDirection, "تغییر جهت متن");
+            this.imgDirection.Click += new System.EventHandler(this.imgDirection_Click);
+            // 
+            // imgAbar
+            // 
+            this.imgAbar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.imgAbar.Enabled = false;
+            this.imgAbar.Image = global::AutoWikiBrowser.Properties.Resources.Button_super_tool;
+            this.imgAbar.Location = new System.Drawing.Point(308, 6);
+            this.imgAbar.Name = "imgAbar";
+            this.imgAbar.Size = new System.Drawing.Size(23, 22);
+            this.imgAbar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.imgAbar.TabIndex = 14;
+            this.imgAbar.TabStop = false;
+            this.ToolTip.SetToolTip(this.imgAbar, "ابرابزار: ابزاری برای ویرایش و فارسی‌سازی متن");
+            this.imgAbar.Click += new System.EventHandler(this.imgAbar_Click);
+            // 
             // imgComment
             // 
             this.imgComment.Cursor = System.Windows.Forms.Cursors.Hand;
             this.imgComment.Enabled = false;
             this.imgComment.Image = global::AutoWikiBrowser.Properties.Resources.Button_hide_comment;
-            this.imgComment.Location = new System.Drawing.Point(253, 6);
+            this.imgComment.Location = new System.Drawing.Point(256, 6);
             this.imgComment.Name = "imgComment";
             this.imgComment.Size = new System.Drawing.Size(23, 22);
             this.imgComment.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.imgComment.TabIndex = 12;
             this.imgComment.TabStop = false;
-            this.ToolTip.SetToolTip(this.imgComment, "Comment");
+            this.ToolTip.SetToolTip(this.imgComment, "<!-  توضیح ->");
             this.imgComment.Click += new System.EventHandler(this.imgComment_Click);
             // 
             // imgSub
@@ -2738,7 +2845,7 @@ namespace AutoWikiBrowser
             this.imgSub.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.imgSub.TabIndex = 11;
             this.imgSub.TabStop = false;
-            this.ToolTip.SetToolTip(this.imgSub, "Subscript text");
+            this.ToolTip.SetToolTip(this.imgSub, "عدد پایین");
             this.imgSub.Click += new System.EventHandler(this.imgSub_Click);
             // 
             // imgSup
@@ -2752,7 +2859,7 @@ namespace AutoWikiBrowser
             this.imgSup.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.imgSup.TabIndex = 10;
             this.imgSup.TabStop = false;
-            this.ToolTip.SetToolTip(this.imgSup, "Superscript text");
+            this.ToolTip.SetToolTip(this.imgSup, "توان عددی");
             this.imgSup.Click += new System.EventHandler(this.imgSup_Click);
             // 
             // imgStrike
@@ -2766,7 +2873,7 @@ namespace AutoWikiBrowser
             this.imgStrike.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.imgStrike.TabIndex = 9;
             this.imgStrike.TabStop = false;
-            this.ToolTip.SetToolTip(this.imgStrike, "Strike text");
+            this.ToolTip.SetToolTip(this.imgStrike, "خط خوردگی");
             this.imgStrike.Click += new System.EventHandler(this.imgStrike_Click);
             // 
             // imgRedirect
@@ -2780,7 +2887,7 @@ namespace AutoWikiBrowser
             this.imgRedirect.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.imgRedirect.TabIndex = 8;
             this.imgRedirect.TabStop = false;
-            this.ToolTip.SetToolTip(this.imgRedirect, "Redirect page");
+            this.ToolTip.SetToolTip(this.imgRedirect, "تغییرمسیر");
             this.imgRedirect.Click += new System.EventHandler(this.imgRedirect_Click);
             // 
             // imgHr
@@ -2794,7 +2901,7 @@ namespace AutoWikiBrowser
             this.imgHr.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.imgHr.TabIndex = 7;
             this.imgHr.TabStop = false;
-            this.ToolTip.SetToolTip(this.imgHr, "Horizontal line (use sparingly)");
+            this.ToolTip.SetToolTip(this.imgHr, "خط افقی");
             this.imgHr.Click += new System.EventHandler(this.imgHr_Click);
             // 
             // imgNowiki
@@ -2808,7 +2915,7 @@ namespace AutoWikiBrowser
             this.imgNowiki.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.imgNowiki.TabIndex = 6;
             this.imgNowiki.TabStop = false;
-            this.ToolTip.SetToolTip(this.imgNowiki, "Ignore wiki formatting");
+            this.ToolTip.SetToolTip(this.imgNowiki, "<nowiki> </nowiki>");
             this.imgNowiki.Click += new System.EventHandler(this.imgNowiki_Click);
             // 
             // imgMath
@@ -2822,7 +2929,7 @@ namespace AutoWikiBrowser
             this.imgMath.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.imgMath.TabIndex = 5;
             this.imgMath.TabStop = false;
-            this.ToolTip.SetToolTip(this.imgMath, "Mathematical formula (LaTeX)");
+            this.ToolTip.SetToolTip(this.imgMath, "فرمول لاتکس");
             this.imgMath.Click += new System.EventHandler(this.imgMath_Click);
             // 
             // imgExtlink
@@ -2836,7 +2943,7 @@ namespace AutoWikiBrowser
             this.imgExtlink.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.imgExtlink.TabIndex = 4;
             this.imgExtlink.TabStop = false;
-            this.ToolTip.SetToolTip(this.imgExtlink, "External link (remember http:// prefix)");
+            this.ToolTip.SetToolTip(this.imgExtlink, "پیوند بیرونی");
             this.imgExtlink.Click += new System.EventHandler(this.imgExtlink_Click);
             // 
             // imgLink
@@ -2850,7 +2957,7 @@ namespace AutoWikiBrowser
             this.imgLink.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.imgLink.TabIndex = 3;
             this.imgLink.TabStop = false;
-            this.ToolTip.SetToolTip(this.imgLink, "Internal link");
+            this.ToolTip.SetToolTip(this.imgLink, "خط زیر متن");
             this.imgLink.Click += new System.EventHandler(this.imgLink_Click);
             // 
             // imgItalics
@@ -2864,7 +2971,7 @@ namespace AutoWikiBrowser
             this.imgItalics.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.imgItalics.TabIndex = 2;
             this.imgItalics.TabStop = false;
-            this.ToolTip.SetToolTip(this.imgItalics, "Italic text");
+            this.ToolTip.SetToolTip(this.imgItalics, "متن ایتالیک");
             this.imgItalics.Click += new System.EventHandler(this.imgItalics_Click);
             // 
             // imgBold
@@ -2878,22 +2985,22 @@ namespace AutoWikiBrowser
             this.imgBold.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.imgBold.TabIndex = 1;
             this.imgBold.TabStop = false;
-            this.ToolTip.SetToolTip(this.imgBold, "Bold text");
+            this.ToolTip.SetToolTip(this.imgBold, "متن پررنگ");
             this.imgBold.Click += new System.EventHandler(this.imgBold_Click);
             // 
-            // imgAbar
+            // imgFaNum
             // 
-            this.imgAbar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.imgAbar.Enabled = false;
-            this.imgAbar.Image = global::AutoWikiBrowser.Properties.Resources.Button_super_tool;
-            this.imgAbar.Location = new System.Drawing.Point(279, 6);
-            this.imgAbar.Name = "imgAbar";
-            this.imgAbar.Size = new System.Drawing.Size(23, 22);
-            this.imgAbar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.imgAbar.TabIndex = 14;
-            this.imgAbar.TabStop = false;
-            this.ToolTip.SetToolTip(this.imgAbar, "Comment");
-            this.imgAbar.Click += new System.EventHandler(this.imgAbar_Click);
+            this.imgFaNum.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.imgFaNum.Enabled = false;
+            this.imgFaNum.Image = global::AutoWikiBrowser.Properties.Resources.Button_numbers;
+            this.imgFaNum.Location = new System.Drawing.Point(283, 6);
+            this.imgFaNum.Name = "imgFaNum";
+            this.imgFaNum.Size = new System.Drawing.Size(23, 22);
+            this.imgFaNum.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.imgFaNum.TabIndex = 22;
+            this.imgFaNum.TabStop = false;
+            this.ToolTip.SetToolTip(this.imgFaNum, "اصلاح اعداد: ابزاری برای تبدیل اعداد به فارسی یا در صورت لزوم گاهی به انگلیسی");
+            this.imgFaNum.Click += new System.EventHandler(this.imgFaNum_Click);
             // 
             // chkAppendMetaDataSort
             // 
@@ -3909,6 +4016,11 @@ namespace AutoWikiBrowser
             // tpEdit
             // 
             this.tpEdit.BackColor = System.Drawing.Color.Transparent;
+            this.tpEdit.Controls.Add(this.imgFaNum);
+            this.tpEdit.Controls.Add(this.imgYadWeb);
+            this.tpEdit.Controls.Add(this.imgYadPak);
+            this.tpEdit.Controls.Add(this.imgYadBook);
+            this.tpEdit.Controls.Add(this.imgRef);
             this.tpEdit.Controls.Add(this.imgDirection);
             this.tpEdit.Controls.Add(this.imgAbar);
             this.tpEdit.Controls.Add(this.imgComment);
@@ -3941,10 +4053,10 @@ namespace AutoWikiBrowser
             this.txtEdit.DetectUrls = false;
             this.txtEdit.Enabled = false;
             this.txtEdit.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEdit.Location = new System.Drawing.Point(0, 38);
+            this.txtEdit.Location = new System.Drawing.Point(0, 53);
             this.txtEdit.Name = "txtEdit";
             this.txtEdit.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtEdit.Size = new System.Drawing.Size(394, 313);
+            this.txtEdit.Size = new System.Drawing.Size(394, 298);
             this.txtEdit.TabIndex = 0;
             this.txtEdit.Text = "";
             this.txtEdit.TextChanged += new System.EventHandler(this.txtEdit_TextChanged);
@@ -4259,20 +4371,6 @@ namespace AutoWikiBrowser
             this.NudgeTimer.Interval = 120000;
             this.NudgeTimer.Tick += new AutoWikiBrowser.NudgeTimer.TickEventHandler(this.NudgeTimer_Tick);
             // 
-            // imgDirection
-            // 
-            this.imgDirection.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.imgDirection.Enabled = false;
-            this.imgDirection.Image = global::AutoWikiBrowser.Properties.Resources.Button_toggle_dir;
-            this.imgDirection.Location = new System.Drawing.Point(306, 6);
-            this.imgDirection.Name = "imgDirection";
-            this.imgDirection.Size = new System.Drawing.Size(23, 22);
-            this.imgDirection.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.imgDirection.TabIndex = 15;
-            this.imgDirection.TabStop = false;
-            this.ToolTip.SetToolTip(this.imgDirection, "Comment");
-            this.imgDirection.Click += new System.EventHandler(this.imgDirection_Click);
-            // 
             // MainForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -4304,6 +4402,12 @@ namespace AutoWikiBrowser
             this.AlertGroup.PerformLayout();
             this.SummaryGroup.ResumeLayout(false);
             this.SummaryGroup.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imgYadWeb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgYadPak)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgYadBook)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgRef)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgDirection)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgAbar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgComment)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgSub)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgSup)).EndInit();
@@ -4316,7 +4420,7 @@ namespace AutoWikiBrowser
             ((System.ComponentModel.ISupportInitialize)(this.imgLink)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgItalics)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgBold)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgAbar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgFaNum)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.botEditsStop)).EndInit();
             this.mnuHistory.ResumeLayout(false);
             this.toolStrip.ResumeLayout(false);
@@ -4382,7 +4486,6 @@ namespace AutoWikiBrowser
             this.groupBox10.ResumeLayout(false);
             this.groupBox10.PerformLayout();
             this.mnuMakeFromTextBox.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.imgDirection)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -4757,5 +4860,10 @@ namespace AutoWikiBrowser
         private System.Windows.Forms.ToolStripMenuItem cEvalToolStripMenuItem;
         private System.Windows.Forms.PictureBox imgAbar;
         private System.Windows.Forms.PictureBox imgDirection;
+        private System.Windows.Forms.PictureBox imgRef;
+        private System.Windows.Forms.PictureBox imgYadBook;
+        private System.Windows.Forms.PictureBox imgYadWeb;
+        private System.Windows.Forms.PictureBox imgYadPak;
+        private System.Windows.Forms.PictureBox imgFaNum;
     }
 }

@@ -1,0 +1,10 @@
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\AWBUpdater\bin\Release\AWBUpdater.exe.config
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\AWBUpdater\bin\Release\AWBUpdater.exe
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\AWBUpdater\bin\Release\AWBUpdater.pdb
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\AWBUpdater\obj\Release\AWBUpdater.csprojResolveAssemblyReference.cache
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\AWBUpdater\obj\Release\AwbUpdater.ErrorHandler.resources
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\AWBUpdater\obj\Release\AwbUpdater.Updater.resources
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\AWBUpdater\obj\Release\AWBUpdater.Properties.Resources.resources
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\AWBUpdater\obj\Release\AWBUpdater.csproj.GenerateResource.Cache
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\AWBUpdater\obj\Release\AWBUpdater.exe
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\AWBUpdater\obj\Release\AWBUpdater.pdb

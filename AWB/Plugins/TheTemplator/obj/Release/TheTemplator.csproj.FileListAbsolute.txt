@@ -1,0 +1,13 @@
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\TheTemplator\bin\Release\TheTemplator.dll
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\TheTemplator\bin\Release\TheTemplator.pdb
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\TheTemplator\bin\Release\WikiFunctions.dll
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\TheTemplator\bin\Release\Newtonsoft.Json.dll
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\TheTemplator\bin\Release\WikiFunctions.pdb
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\TheTemplator\bin\Release\Newtonsoft.Json.xml
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\TheTemplator\obj\Release\TheTemplator.csprojResolveAssemblyReference.cache
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\TheTemplator\obj\Release\AutoWikiBrowser.Plugins.TheTemplator.DebugOutput.resources
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\TheTemplator\obj\Release\AutoWikiBrowser.Plugins.TheTemplator.TemplatorConfig.resources
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\TheTemplator\obj\Release\AutoWikiBrowser.Plugins.TheTemplator.TemplatorParameterDetails.resources
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\TheTemplator\obj\Release\TheTemplator.csproj.GenerateResource.Cache
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\TheTemplator\obj\Release\TheTemplator.dll
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\TheTemplator\obj\Release\TheTemplator.pdb

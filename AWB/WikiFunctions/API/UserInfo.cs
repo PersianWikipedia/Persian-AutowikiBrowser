@@ -48,7 +48,7 @@ namespace WikiFunctions.API
         /// Whether the current user is an administrator
         /// </summary>
         public bool IsSysop
-        { get { return IsInGroup("sysop"); } }
+        { get { return IsInGroup("sysop")|| HasRight("delete"); } }
 
         /// <summary>
         /// Whether the current user is a flagged bot

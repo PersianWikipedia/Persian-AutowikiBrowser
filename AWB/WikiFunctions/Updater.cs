@@ -72,7 +72,7 @@ namespace WikiFunctions
             {
                 string text =
                     Tools.GetHTML(
-                        "https://en.wikipedia.org/w/index.php?title=Wikipedia:AutoWikiBrowser/CheckPage/Version&action=raw");
+                        "https://fa.wikipedia.org/w/index.php?title=Wikipedia:AutoWikiBrowser/CheckPage/Version&action=raw");
                 GlobalVersionPage = text;
 
                 int awbCurrentVersion =
@@ -90,7 +90,7 @@ namespace WikiFunctions
                         FileVersionInfo.GetVersionInfo(AWBDirectory + "AutoWikiBrowser.exe");
                     int awbFileVersion = StringToVersion(awbVersionInfo.FileVersion);
 
-                    Result = AWBEnabledStatus.Disabled; //Disabled till proven enabled
+                    Result = AWBEnabledStatus.Enabled; //Disabled till proven enabled
 
                     if (awbFileVersion < awbCurrentVersion)
                         return;
@@ -104,7 +104,7 @@ namespace WikiFunctions
                         }
                     }
 
-                    if (Result == AWBEnabledStatus.Disabled)
+                    if (Result == AWBEnabledStatus.Enabled)
                         return;
 
                     if ((updaterVersion > 1400) &&

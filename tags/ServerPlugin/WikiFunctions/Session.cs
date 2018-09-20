@@ -89,7 +89,7 @@ namespace WikiFunctions
                 //load version check page
                 BackgroundRequest versionRequest = new BackgroundRequest();
                 versionRequest.GetHTML(
-                    "http://en.wikipedia.org/w/index.php?title=Wikipedia:AutoWikiBrowser/CheckPage/Version&action=raw");
+                    "http://fa.wikipedia.org/w/index.php?title=Wikipedia:AutoWikiBrowser/CheckPage/Version&action=raw");
 
                 //load check page
                 string url;
@@ -140,8 +140,9 @@ namespace WikiFunctions
                 string strVersionPage = (string)versionRequest.Result;
 
                 //see if this version is enabled
-                if (!strVersionPage.Contains(AWBVersion + " enabled"))
-                    return WikiStatusResult.OldVersion;
+
+                //if (!strVersionPage.Contains(AWBVersion + " enabled"))
+                //    return WikiStatusResult.OldVersion;
 
                 //TODO:
                 // else

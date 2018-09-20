@@ -168,7 +168,7 @@ namespace WikiFunctions
         public static Dictionary<string, List<string>> MagicWords = new Dictionary<string, List<string>>();
 
         /// <summary>
-        /// Gets a URL of the site, e.g. "https://en.wikipedia.org/w/"
+        /// Gets a URL of the site, e.g. "https://fa.wikipedia.org/w/"
         /// </summary>
         public static string URLLong
         {
@@ -176,7 +176,7 @@ namespace WikiFunctions
         }
 
         /// <summary>
-        /// Gets a Index URL of the site, e.g. "https://en.wikipedia.org/w/index.php"
+        /// Gets a Index URL of the site, e.g. "https://fa.wikipedia.org/w/index.php"
         /// </summary>
         public static string URLIndex
         {
@@ -184,7 +184,7 @@ namespace WikiFunctions
         }
 
         /// <summary>
-        /// Gets a Index URL of the site, e.g. "https://en.wikipedia.org/w/api.php"
+        /// Gets a Index URL of the site, e.g. "https://fa.wikipedia.org/w/api.php"
         /// </summary>
         public static string URLApi
         {
@@ -231,9 +231,9 @@ namespace WikiFunctions
         private static string URLEnd = "/w/";
 
         /// <summary>
-        /// Gets a URL of the site, e.g. "https://en.wikipedia.org".
+        /// Gets a URL of the site, e.g. "https://fa.wikipedia.org".
         /// </summary>
-        public static string URL = "https://en.wikipedia.org";
+        public static string URL = "https://fa.wikipedia.org";
 
         public static string Host
         {
@@ -379,7 +379,7 @@ namespace WikiFunctions
         private static void AWBDefaultSummaryTag()
         {
             mSummaryTag = "using ";
-            WPAWB = "[[Project:AWB|AWB]]";
+            WPAWB = "[[Project:AWB|AWB]] فارسی";
         }
 
         #region Delayed load stuff
@@ -852,7 +852,7 @@ namespace WikiFunctions
 
                 case "fa":
                     mSummaryTag = "";
-                    WPAWB = "با استفاده از [[Project:AutoWikiBrowser|AWB]]";
+                    WPAWB = "با [[وپ:وخ|ویرایشگر خودکار]] [[وپ:وخف|فارسی]]";
                     break;
 
                 case "fr":
@@ -1046,4 +1046,3 @@ namespace WikiFunctions
         PendingUpdate
     }
 }
-

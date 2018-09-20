@@ -304,7 +304,13 @@
   <ItemGroup>
     <Content Include="globe.ico" />
     <Content Include="Resources\AutoWikiBrowser2.png" />
+    <None Include="Resources\book.jpg" />
     <Content Include="Resources\button_bold.png" />
+    <None Include="Resources\pak.jpg" />
+    <None Include="Resources\web.jpg" />
+    <None Include="Resources\ref1.jpg" />
+    <None Include="Resources\ref.jpg" />
+    <None Include="Resources\Button_enNum.png" />
     <Content Include="Resources\button_extlink.png" />
     <Content Include="Resources\Button_hide_comment.png" />
     <Content Include="Resources\button_hr.png" />
@@ -313,6 +319,7 @@
     <Content Include="Resources\Button_lower_letter.png" />
     <Content Include="Resources\button_math.png" />
     <Content Include="Resources\button_nowiki.png" />
+    <None Include="Resources\Button_numbers.png" />
     <Content Include="Resources\Button_redirect.png" />
     <Content Include="Resources\Button_strike.png" />
     <None Include="Resources\Button_toggle_dir.png" />

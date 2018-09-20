@@ -135,7 +135,7 @@ var persianTools = (function () {
 		return text
 			.replace(/\r/g, '')
 			//تمیزکاری autoFormatter.js
-			.replace( /[\x00-\x08\x0B\x0C\x0E-\x1F\x7F-\x9F\uFEFF]+/g, '' )
+			.replace( /[\x00-\x08\x0B\x0C\x0E-\x1F\x7F-\x9F\uFEFF\u00AD]+/g, '' )
 			.replace(/[ \xA0\xAD\u1680\u180E\u2000-\u200D\u2028\u2029\u202F\u205F\u2060\u3000]+\n/g,'\n')
 			//تبدیل تب و فاصله نشکن اول خط به هیچ چون مدیاویکی آن را در نظر نمی‌گیرد
 			.replace(/\n[\t\u00A0]+/g, '\n')
@@ -584,6 +584,7 @@ var persianWikiTools = (function () {
 			/<\s*references\s*(\s\b[^<>]*?)?\s*(?:\/|>\s*<\s*\/\s*references)\s*>/gi,
 			'<references$1 />'
 		);
+		str = str.replace(/\<ref[^>]*\>\[?(?:https?:)?\/\/fa.(?:m\.)?wikipedia.org\/[^\<\n\}\]\[]+\]?\<\/ref\>/gi,'')
 		str = str.replace( /<\s*references\s*(\s\b[^<\/>]*?)?\s*>/gi, '<references$1>' );
 		str = str.replace( /<\s*\/\s*references\s*>/gi, '<\/references>' );
 		var re = /(<references[^<\/>]*)>/g, m;
@@ -612,7 +613,9 @@ var persianWikiTools = (function () {
 		/* Space between the end of block and remove <ref> or two <ref> */
 		str = str.replace( /([!,.;?]|<ref\b[^<>]*(?:\/|>[^<>]*<\/ref)>) +(?=<ref[ >])/gi, '$1' );
 		/* Two identical punctuation before and cut after a <ref> on one */
-		return str.replace( /([!,.:;?])(<ref\b[^<>]*(?:\/|>[^<>]*<\/ref)>)\1/gi, '$1$2' );
+		str = str.replace( /([!,.:;?])(<ref\b[^<>]*(?:\/|>[^<>]*<\/ref)>)\1/gi, '$1$2' );
+		/* ref inside small */
+		return str.replace( /\<small\> *\<ref/gi, '<ref' ).replace( /\<\/ref\> *\<\/small\>/gi, '</ref>' );
 	}
 
 	function autoFormatCleanTags(str) {
@@ -813,9 +816,9 @@ var persianWikiTools = (function () {
 	 * @param {string} text محتوا
 	*/
 	function addColumnToRefTemplate(text) {
-		if ((text.match(/<ref>/gi) || []).length >= 6) {
-			var refTemplate = /\{{2}پانویس([^\}\{]+)?\}{2}/i.exec(text), needChange = false;
-			if (refTemplate) {
+		var refTemplate = /\{\{پانویس([^\}\{]+)?\}\}/i.exec(text), needChange = false;
+		if (refTemplate) {
+			if ((text.match(/<ref/gi) || []).length >= 6) {
 				if (refTemplate[1] !== undefined) {
 					var refParams = refTemplate[1].split('|');
 					for (var i = refParams.length - 1; i >= 0; i--) {
@@ -830,8 +833,21 @@ var persianWikiTools = (function () {
 					return text.replace(refTemplate[0], refTemplate[0].replace('}}', '|۲}}'));
 				}
 			}
+		}else{
+			if ((text.match(/<ref/gi) || []).length > 0) {
+				var text2 = text.replace ('== منابع ==','== منابع ==\n{{پانویس}}')
+				if (text2==text){
+					text2 = text.replace ('== پانویس ==','== پانویس ==\n{{پانویس}}')
+				}
+				if (text2==text){
+					text2 = text.replace ('[[رده:','== منابع ==\n{{پانویس}}\n\n[[رده:')
+				}
+				if (text2==text){
+					text2 = text + '\n== منابع ==\n{{پانویس}}'
+				}
+				text=text2
+			}
 		}
-		
 		return text;
 	}
 	
@@ -1086,11 +1102,12 @@ var persianWikiTools = (function () {
 			})
 
 			// Strip the http(s) prefix
-			.replace(/\[(https?\:)(?=\/\/(?:[\w\-]+)\.(wiki(pedia|media|data|source|news|oyage|quote)|wiktionary)\.org\/[^\s\]]*)/g, '[')
-			.replace(/\[(?:https?\:|)\/\/[\w\-]{2,}\.wikipedia\.org\/wiki\/([^\n?]*?)\]/g, function (x) {
-				x = x.replace(/\[(?:https?\:|)\/\/([\w\-]{2,})\.wikipedia\.org\/wiki\/(.*?) (.*?)\]/g,'[[:$1:$2|$3]]')
-				x = x.replace(/\[(?:https?\:|)\/\/([\w\-]{2,})\.wikipedia\.org\/wiki\/(.*?)\]/g,'[[:$1:$2]]')
-				x = x.replace(/\_/g,' ').replace(/\[\[\:fa\:/g,'[[')
+			.replace(/\[(https?\:)(?=\/\/(?:[\w\-]+)\.(?:m\.)?(wiki(pedia|media|data|source|news|oyage|quote)|wiktionary)\.org\/[^\s\]]*)/g, '[')
+			.replace(/[\[\=](?:https?\:|)\/\/[\w\-]{2,}\.(?:m\.)?wikipedia\.org\/w(?:iki)?\/([^\n?]*?)[\]\|]/g, function (x) {
+				x = x.replace(/\[(?:https?\:|)\/\/([\w\-]{2,})\.(?:m\.)?wikipedia\.org\/w(?:iki)?\/(.*?) (.*?)\]/g,'[[:$1:$2|$3]]')
+				x = x.replace(/\[(?:https?\:|)\/\/([\w\-]{2,})\.(?:m\.)?wikipedia\.org\/w(?:iki)?\/(.*?)\]/g,'[[:$1:$2]]')
+				x = x.replace(/\=(?:https?\:|)\/\/([\w\-]{2,})\.(?:m\.)?wikipedia\.org\/w(?:iki)?\/(.*?)\|/g,'=[[:$1:$2]]|')
+				x = x.replace(/\_/g,' ').replace(/\[\[\:fa\:/g,'[[').replace(/٪۲۰/g,' ').replace(/%20/g,' ').replace(/\[\[[a-zA-Z\'0-9 ]+\|/g,'[[')
 				return x
 			}).replace(/\[{2}([^\|]+)\|\1\]{2}/gi, '[[$1]]');
 	}
@@ -1324,7 +1341,7 @@ var persianWikiTools = (function () {
 				text = text.replace(new RegExp('(\<' + tags[i] + '\>){2,}', 'g'), '$1')
 				  .replace(new RegExp('(\<\\/' + tags[i] + '\>){2,}', 'g'), '$1');
 			}
-			text=text.replace(/\<ref\>[\s\n]*\<\/ref\>/g,'');
+			text=text.replace(/\<ref\>[\s\n]*\<\/ref\>/g,'').replace(/\<ref\>[\s\n]*\<ref\>/g,'<ref>').replace(/\<\/ref\>[\s\n]*\<\/ref\>/g,'</ref>').replace(/\<ref\/\>/g,'</ref>');
 			return text
 		  },
 		  [patterns.insideHtmlComment]
@@ -2479,6 +2496,6 @@ if (typeof window !== "undefined") {
 ///
 ///last update 2017/Jun/26 or 1396/04/05
 var fs = require('fs');
-var wiki_text = fs.readFileSync('input.txt').toString();
+var wiki_text = fs.readFileSync('io.txt').toString();
 wiki_text = persianWikiTools.superTool(wiki_text);
-fs.writeFileSync('output.txt', wiki_text);
+fs.writeFileSync('io.txt', wiki_text);

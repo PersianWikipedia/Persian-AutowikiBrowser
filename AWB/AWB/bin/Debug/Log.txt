@@ -5192,3 +5192,61 @@ object: PageLoaded
 Time: 2017-08-09 08:38:09.401
 Message: TheArticle.ArticleText length is 61757
 
+object: ApiEdit::HttpPost
+Time: 2017-08-19 04:08:49.011
+Message: https://fa.wikipedia.org/w/api.php?format=xml&action=query&meta=tokens&type=login
+
+object: API::Edit meta/tokens
+Time: 2017-08-19 04:08:49.330
+Message: <?xml version="1.0"?><api batchcomplete=""><query><tokens logintoken="61c1e847d67633a7bb9081fd4705084459977a88+\" /></query></api>
+
+object: ApiEdit::HttpPost
+Time: 2017-08-19 04:08:49.331
+Message: https://fa.wikipedia.org/w/api.php?format=xml&action=login
+
+object: API::Edit action/login
+Time: 2017-08-19 04:08:50.838
+Message: <?xml version="1.0"?><api><warnings><main xml:space="preserve">Subscribe to the mediawiki-api-announce mailing list at &lt;https://lists.wikimedia.org/mailman/listinfo/mediawiki-api-announce&gt; for notice of API deprecations and breaking changes. Use [[Special:ApiFeatureUsage]] to see usage of deprecated features by your application.</main><login xml:space="preserve">Main-account login via &quot;action=login&quot; is deprecated and may stop working without warning. To continue login with &quot;action=login&quot;, see [[Special:BotPasswords]]. To safely continue using main-account login, see &quot;action=clientlogin&quot;.</login></warnings><login result="Success" lguserid="618679" lgusername="Yamaha5Bot" /></api>
+
+object: ApiEdit::CheckForErrors warnings
+Time: 2017-08-19 04:08:50.841
+Message: Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/mailman/listinfo/mediawiki-api-announce> for notice of API deprecations and breaking changes. Use [[Special:ApiFeatureUsage]] to see usage of deprecated features by your application.
+Main-account login via "action=login" is deprecated and may stop working without warning. To continue login with "action=login", see [[Special:BotPasswords]]. To safely continue using main-account login, see "action=clientlogin".
+
+
+object: ApiEdit::HttpPost
+Time: 2017-08-19 04:08:50.843
+Message: https://fa.wikipedia.org/w/api.php?format=xml&action=query
+
+object: ApiEdit::HttpGet
+Time: 2017-08-19 04:08:51.385
+Message: https://fa.wikipedia.org/w/index.php?title=Project:AutoWikiBrowser/CheckPage&action=raw
+
+object: Tools::GetHTML
+Time: 2017-08-19 04:08:51.386
+Message: https://en.wikipedia.org/w/index.php?title=Wikipedia:AutoWikiBrowser/CheckPage/Version&action=raw
+
+object: ApiEdit::HttpGet
+Time: 2017-08-19 04:08:51.739
+Message: https://fa.wikipedia.org/w/api.php?action=query&format=xml&&list=categorymembers&cmtitle=Category:Articles+with+underscores+in+the+title&cmlimit=max&rawcontinue=1
+
+object: MainForm
+Time: 2017-08-19 04:08:51.802
+Message: Starting
+
+object: ApiEdit::HttpGet
+Time: 2017-08-19 04:08:51.929
+Message: https://fa.wikipedia.org/w/api.php?format=xml&action=query&converttitles=&prop=info%7crevisions&meta=tokens%7cuserinfo%7cnotifications&type=csrf%7cwatch%7crollback&intoken=edit%7cprotect%7cdelete%7cmove%7cwatch&titles=%da%a9%d8%a7%d8%b1%d8%a8%d8%b1%3aYamaha5%2f%d8%b5%d9%81%d8%ad%d9%87+%d8%aa%d9%85%d8%b1%db%8c%d9%86&inprop=protection%7cwatched%7cdisplaytitle&rvprop=content%7ctimestamp&curtimestamp=&redirects=&assert=user&uiprop=hasmsg&notprop=count
+
+object: ApiEdit::CheckForErrors warnings
+Time: 2017-08-19 04:08:52.686
+Message: Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/mailman/listinfo/mediawiki-api-announce> for notice of API deprecations and breaking changes. Use [[Special:ApiFeatureUsage]] to see usage of deprecated features by your application.
+The parameter "intoken" has been deprecated.
+Action "protect" is not allowed for the current user.
+Action "delete" is not allowed for the current user.
+
+
+object: PageLoaded
+Time: 2017-08-19 04:08:53.226
+Message: TheArticle.ArticleText length is 248
+

@@ -74,14 +74,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AutoWikiBrowser.exe" size="862720">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AutoWikiBrowser.exe" size="874496">
       <assemblyIdentity name="AutoWikiBrowser" version="5.9.0.1" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>FMGeZF2iVV0GfugONKGyZ+2zoMA=</dsig:DigestValue>
+        <dsig:DigestValue>ZoyrY6uA8wCN3g6CO4M8cwvlG4g=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -105,7 +105,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>NIXKSCv4cTqZJClL8l0b+gw4z10=</dsig:DigestValue>
+        <dsig:DigestValue>qXTz5qfhzmlAWSO1b9uMOOdhF5k=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

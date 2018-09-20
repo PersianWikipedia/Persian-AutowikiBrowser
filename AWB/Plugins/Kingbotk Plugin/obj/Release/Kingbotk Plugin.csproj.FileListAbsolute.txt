@@ -1,0 +1,19 @@
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\Kingbotk Plugin\bin\Release\Kingbotk AWB Plugin.dll
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\Kingbotk Plugin\bin\Release\Kingbotk AWB Plugin.pdb
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\Kingbotk Plugin\bin\Release\WikiFunctions.dll
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\Kingbotk Plugin\bin\Release\Newtonsoft.Json.dll
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\Kingbotk Plugin\bin\Release\WikiFunctions.pdb
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\Kingbotk Plugin\bin\Release\Newtonsoft.Json.xml
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\Kingbotk Plugin\obj\Release\Kingbotk Plugin.csprojResolveAssemblyReference.cache
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\Kingbotk Plugin\obj\Release\AutoWikiBrowser.Plugins.Kingbotk.Components.AboutBox.resources
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\Kingbotk Plugin\obj\Release\AutoWikiBrowser.Plugins.Kingbotk.Components.PluginSettingsControl.resources
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\Kingbotk Plugin\obj\Release\AutoWikiBrowser.Plugins.Kingbotk.Plugins.GenericTemplateSettings.resources
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\Kingbotk Plugin\obj\Release\AutoWikiBrowser.Plugins.Kingbotk.Components.GenericTemplatePropertiesForm.resources
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\Kingbotk Plugin\obj\Release\AutoWikiBrowser.Plugins.Kingbotk.GenericWithWorkgroups.resources
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\Kingbotk Plugin\obj\Release\AutoWikiBrowser.Plugins.Kingbotk.ManualAssessments.AssessmentForm.resources
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\Kingbotk Plugin\obj\Release\AutoWikiBrowser.Plugins.Kingbotk.ManualAssessments.AssessmentsInstructionsDialog.resources
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\Kingbotk Plugin\obj\Release\AutoWikiBrowser.Plugins.Kingbotk.Properties.Resources.resources
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\Kingbotk Plugin\obj\Release\AutoWikiBrowser.Plugins.Kingbotk.Components.TimerStats.resources
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\Kingbotk Plugin\obj\Release\Kingbotk Plugin.csproj.GenerateResource.Cache
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\Kingbotk Plugin\obj\Release\Kingbotk AWB Plugin.dll
+J:\Bank of Source\Persian AWB Source code\autowikibrowser-code-12169\Persian-AutowikiBrowser\AWB\Plugins\Kingbotk Plugin\obj\Release\Kingbotk AWB Plugin.pdb
